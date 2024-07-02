@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* light mode */
+:root {
+  --home-header: #121212ef;
+}
+
+body {
+  font-family: inter, sans-serif;
+}
+.active {
+  color: rgb(234 179 8);
+}
+
+.dark {
+  background-color: rgb(32, 29, 19);
+  color: #a0a093;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  gap: 1rem;
+}

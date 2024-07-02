@@ -1,0 +1,149 @@
+{
+  "menu": [
+    {
+      "meal": "Fried Rice and Chicken",
+      "price": 3000,
+      "description": "Chicken that has been carefully dried to a moisture level of 10%.The protein content is 65% and 12% fat level. Fried together with rice grains while monitoring heat levels",
+      "image": "fried-rice.jpg",
+      "id": 1
+    },
+    {
+      "meal": "Fried Plantain and Chicken",
+      "price": 3000,
+      "description": "Slightly ripe plantain is deep fried in vegetable oil of low cholesterol content. Served along side chicken and tomato sauce. Plantain can be replaced with fried potato. ",
+      "image": "fried-plantain.jpg",
+      "id": 2
+    },
+    {
+      "meal": "Fufu Corn and Kati-Kati",
+      "price": 3500,
+      "description": "Well cooked fufu corn wrapped with natural leaves, vegetables and tasty roasted chicken",
+      "image": "chicken.jpg",
+      "id": 3
+    },
+    {
+      "meal": "Garri,Eru and fried Snails",
+      "price": 4000,
+      "description": "White and red garri with delicious eru soup with fried spicy snails. Prepared using natural palm oil with zero cholesterol levels   ",
+      "image": "eru.jpg",
+      "id": 4
+    },
+    {
+      "meal": "Ripe Plantain and Ndole",
+      "price": 3000,
+      "description": "Boiled plantain and ndole prepared with vegetable oil. Can be served with meat or chicken",
+      "image": "ndole.jpg",
+      "id": 5
+    },
+    {
+      "meal": "Yam & Pepper Soup Goat Meat",
+      "price": 4000,
+      "description": "Delicious pepper soup goat meat prepared with yam with high protein content and carbohydrate for energy",
+      "image": "goat-meat.jpg",
+      "id": 6
+    },
+    {
+      "meal": "Eqwang and Cow Meat",
+      "price": 3500,
+      "description": " Prepared with coco-yams which contains high carbohydrate content , natural palm oil with zero cholesterol and beef with high protein content",
+      "image": "eqwang.jpg",
+      "id": 7
+    },
+    {
+      "meal": "Achu and roasted goat meat",
+      "price": 5000,
+      "description": "Pounded coco-yams and bananas, well cooked and served with yellow soup made with natural spicy ingredients. ",
+      "image": "achu.jpg",
+      "id": 8
+    },
+    {
+      "meal": "White Rice and Tomato Sauce",
+      "price": 3000,
+      "description": "Well prepared rice grains and Delicious tomato sauce containing green pepper and  lettuce. Served with chicken or cow meat",
+      "image": "rice.jpg",
+      "id": 9
+    },
+    {
+      "meal": "Mbongo Chobi",
+      "price": 3000,
+      "description": "Tasty Beef prepared with tomato sauce and natural spices. Can be served with rice, plantain or yam.",
+      "image": "stew.jpg",
+      "id": 10
+    }
+  ],
+  "orders": [
+    {
+      "meal": "Fried Rice and Chicken",
+      "price": "3000",
+      "numPlates": "5",
+      "id": 3
+    },
+    {
+      "meal": "Fried Rice and Chicken",
+      "price": "3000",
+      "numPlates": "2",
+      "id": 5
+    },
+    {
+      "meal": "Fried Rice and Chicken",
+      "numPlates": "2",
+      "price": "3000",
+      "password": "boyZ190",
+      "id": 6
+    },
+    {
+      "meal": "Fried Rice and Chicken",
+      "numPlates": "3",
+      "price": "3000",
+      "password": "boyZ190",
+      "id": 8,
+      "drinks": "Fruitas",
+      "numBottles": "4"
+    },
+    {
+      "meal": "Fufu Corn and Kati-Kati",
+      "numPlates": "5",
+      "price": "3500",
+      "password": "boyZ190",
+      "id": 9,
+      "drinks": "Chill",
+      "numBottles": "2"
+    },
+    {
+      "meal": "Fried Rice and Chicken",
+      "numPlates": "3",
+      "price": "3000",
+      "drinks": "Whisky Cola",
+      "numBottles": "3",
+      "password": "boyZ190",
+      "id": 10
+    }
+  ],
+  "reviews": [
+    {
+      "name": "manager echo back",
+      "review": "They are the best eating house in the city of douala. Their customer service is very polite and welcoming",
+      "id": 1
+    },
+    {
+      "name": "sidwan",
+      "review": "Delicious! . Food is very tasty and their delivery time is as quick as lightening",
+      "id": 1
+    },
+    {
+      "name": "vivan",
+      "review": "As somone who hates eating outside, i tried their pepper soup goat meat and it was one in a million. So for that, i give them a plus",
+      "id": 2
+    },
+    {
+      "name": "sabi pikin",
+      "review": "your service is excellent!",
+      "id": 3
+    },
+    {
+      "name": "maxwel",
+      "review": "i ate with them last week and their meal was super delicious",
+      "id": 4
+    }
+  ]
+}
