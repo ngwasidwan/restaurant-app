@@ -90,7 +90,7 @@ function OrderForm() {
   return (
     <div className="bg-white  absolute z-10 lg:z-20 w-full left-0  top-16 md:h-[100vh] h-[150vh] md:top-[7.5rem] flex">
       <form
-        className="text-lg p-4 w-3/4 mx-auto shadow-md shadow-stone-600 text-stone-600  mt-28"
+        className="text-lg p-4 w-3/4 mx-auto shadow-md shadow-stone-600 text-stone-600 md:mt-10 mt-28"
         onSubmit={handleSubmit(submitOrder, onError)}
       >
         <div style={style}>

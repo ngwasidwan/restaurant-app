@@ -8,7 +8,7 @@ function Home() {
       <div className="z-10 md:h-auto h-[93vh] bg-stone-900 bg-opacity-60 md:bg-opacity-0 flex md:block items-center">
         <div>
           <h1 className="font-bold md:text-3xl text-2xl mb-6 capitalize  text-center md:text-start text-yellow-600 md:text-inherit ">
-            every bite feels like royalty
+            Feel like royalty with every bite
           </h1>
           <h2 className="italic font-semibold mb-4 text-yellow-500 text-xl md:text-lg text-center md:text-start tracking-[.1rem] md:tracking-normal">
             Taste! and Feel the Equilibrium between Price and Quality.

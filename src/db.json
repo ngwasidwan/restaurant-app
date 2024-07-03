@@ -85,6 +85,22 @@
       "numPlates": "3",
       "id": 2,
       "password": "boyZ190"
+    },
+    {
+      "meal": "Fried Rice and Chicken",
+      "numPlates": "3",
+      "price": "3000",
+      "password": "123bb1",
+      "id": 1
+    },
+    {
+      "meal": "Fufu Corn and Kati-Kati",
+      "numPlates": "5",
+      "price": "3500",
+      "drinks": "Fruitas",
+      "numBottles": "1",
+      "password": "123bb1",
+      "id": 3
     }
   ],
   "reviews": [
@@ -117,6 +133,11 @@
       "name": "mami lum ",
       "review": "queen mother's kitchen is the best in terms of quality food!",
       "id": 5
+    },
+    {
+      "name": "sabi pikin ",
+      "review": "their restaurant is one in a million. The best part that i enjoyed about them is how their customer service welcomed me.",
+      "id": 6
     }
   ]
 }
