@@ -4,7 +4,6 @@ import toast from "react-hot-toast";
 import { useEffect, useState } from "react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
-
 import SmallSpinner from "./SmallSpinner";
 import { updateOrder, uploadOrder } from "../services/apiOrder";
 
@@ -63,17 +62,22 @@ function OrderForm() {
 
   function submitOrder(data) {
     const password = getUserPassword();
-    if (!addDrink) console.log("no drinks");
 
     if (canEdit) {
       const { numPlates } = data;
 
-      const editedData =
-        data.numBottles && addDrink
-          ? { ...data, numPlates, numBottles: data.numBottles, id: itemData.id }
-          : { meal: data.meal, price: data.price, numPlates, id: itemData.id };
+      const editedData = addDrink
+        ? { ...data, numPlates, numBottles: data.numBottles, id: itemData.id }
+        : {
+            meal: data.meal,
+            price: data.price,
+            numPlates,
+            id: itemData.id,
+            password,
+          };
+
       update(editedData);
-    } else placeOrder({ ...data, password });
+    } else placeOrder({ ...data, password, id: itemData.id });
   }
 
   function onError(error) {

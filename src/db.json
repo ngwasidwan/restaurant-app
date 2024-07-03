@@ -74,49 +74,17 @@
   "orders": [
     {
       "meal": "Fried Rice and Chicken",
-      "price": "3000",
-      "numPlates": "5",
-      "id": 3
-    },
-    {
-      "meal": "Fried Rice and Chicken",
-      "price": "3000",
-      "numPlates": "2",
-      "id": 5
-    },
-    {
-      "meal": "Fried Rice and Chicken",
       "numPlates": "2",
       "price": "3000",
       "password": "boyZ190",
-      "id": 6
+      "id": 13
     },
     {
-      "meal": "Fried Rice and Chicken",
-      "numPlates": "3",
+      "meal": "Fried Plantain and Chicken",
       "price": "3000",
-      "password": "boyZ190",
-      "id": 8,
-      "drinks": "Fruitas",
-      "numBottles": "4"
-    },
-    {
-      "meal": "Fufu Corn and Kati-Kati",
-      "numPlates": "5",
-      "price": "3500",
-      "password": "boyZ190",
-      "id": 9,
-      "drinks": "Chill",
-      "numBottles": "2"
-    },
-    {
-      "meal": "Fried Rice and Chicken",
       "numPlates": "3",
-      "price": "3000",
-      "drinks": "Whisky Cola",
-      "numBottles": "3",
-      "password": "boyZ190",
-      "id": 10
+      "id": 2,
+      "password": "boyZ190"
     }
   ],
   "reviews": [
@@ -144,6 +112,11 @@
       "name": "maxwel",
       "review": "i ate with them last week and their meal was super delicious",
       "id": 4
+    },
+    {
+      "name": "mami lum ",
+      "review": "queen mother's kitchen is the best in terms of quality food!",
+      "id": 5
     }
   ]
 }
